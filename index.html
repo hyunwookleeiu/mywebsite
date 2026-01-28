@@ -3,22 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
-    <style>
-        body {
-            background-color: white;
-            color: black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            font-size: 2rem;
-        }
-    </style>
+    <meta name="description" content="Hyunwook (Dennis) Lee - Undergraduate Researcher at Indiana University Bloomington. Research interests include national security policy, East Asian security, public management, and bureaucracy.">
+    <meta name="keywords" content="Hyunwook Lee, Dennis Lee, Indiana University, public affairs, national security, East Asian security, public policy, research">
+    <meta name="author" content="Hyunwook (Dennis) Lee">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Hyunwook (Dennis) Lee - Academic Portfolio">
+    <meta property="og:description" content="Undergraduate Researcher at Indiana University Bloomington specializing in national security policy and East Asian security.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hyunwooklee.org">
+
+    <title>Hyunwook (Dennis) Lee | Indiana University Bloomington</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon (add your favicon files to the root directory) -->
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
 </head>
 <body>
-    Hello, I'm Dennis. Thanks for visiting.
+    <!-- ========================================================================
+         NAVIGATION BAR
+         To update navigation: Edit the links in the <nav> section below
+         ======================================================================== -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">Hyunwook Lee</a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========================================================================
+         MAIN CONTENT
+         ======================================================================== -->
+    <main class="main-content">
+        <div class="container">
+
+            <!-- ================================================================
+                 HERO SECTION
+                 To update: Replace headshot.jpg in /images/ folder
+                 Edit the bio text below
+                 ================================================================ -->
+            <section class="hero">
+                <div class="hero-image">
+                    <!--
+                    HEADSHOT IMAGE
+                    Replace 'images/headshot.jpg' with your actual headshot.
+                    Recommended size: 400x500 pixels (will be displayed at 200x250)
+                    -->
+                    <img src="images/headshot.jpg"
+                         alt="Hyunwook (Dennis) Lee"
+                         class="headshot"
+                         onerror="this.style.backgroundColor='#e0e0e0'; this.style.display='block';">
+                </div>
+
+                <div class="hero-content">
+                    <h1 class="hero-title">Hyunwook (Dennis) Lee</h1>
+                    <p class="hero-subtitle">Undergraduate Researcher, Indiana University Bloomington</p>
+
+                    <!-- ========================================================
+                         BIO SECTION
+                         Edit this paragraph to describe your academic interests
+                         and research focus
+                         ======================================================== -->
+                    <p>
+                        Welcome to my academic portfolio. I am an undergraduate researcher at Indiana
+                        University Bloomington with research interests in <strong>national security policy</strong>,
+                        <strong>East Asian security</strong>, <strong>public management</strong>, and
+                        <strong>bureaucracy</strong>. My work focuses on understanding the complex dynamics
+                        of international relations in the Korean Peninsula and the broader East Asian region.
+                    </p>
+
+                    <p>
+                        <!-- ADD MORE BIO TEXT HERE
+                             Example: Describe your current research projects,
+                             academic goals, or what drives your scholarly interests -->
+                        I am particularly interested in examining how policy decisions shape security
+                        outcomes and the role of institutional structures in foreign policy making.
+                    </p>
+
+                    <!-- Quick Links to Key Sections -->
+                    <div class="quick-links">
+                        <a href="files/cv.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+                        <a href="research.html" class="btn">View Research</a>
+                        <a href="contact.html" class="btn">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================================================================
+                 RESEARCH INTERESTS SECTION (Optional)
+                 Add or remove research areas as needed
+                 ================================================================ -->
+            <section>
+                <h2>Research Interests</h2>
+                <ul>
+                    <li><strong>National Security Policy:</strong> Analysis of security decision-making processes and policy outcomes</li>
+                    <li><strong>East Asian Security:</strong> Inter-Korean relations, regional security dynamics, and great power competition</li>
+                    <li><strong>Public Management:</strong> Government effectiveness, bureaucratic behavior, and institutional design</li>
+                    <li><strong>Bureaucracy:</strong> Administrative capacity, policy implementation, and organizational theory</li>
+                    <!-- ADD MORE RESEARCH INTERESTS HERE -->
+                </ul>
+            </section>
+
+            <!-- ================================================================
+                 NEWS / UPDATES SECTION (Optional)
+                 Uncomment and use this section for announcements
+                 ================================================================ -->
+            <!--
+            <section>
+                <h2>Recent News</h2>
+                <ul>
+                    <li><strong>[Month Year]:</strong> Description of news item or achievement</li>
+                    <li><strong>[Month Year]:</strong> Another update or announcement</li>
+                </ul>
+            </section>
+            -->
+
+        </div>
+    </main>
+
+    <!-- ========================================================================
+         FOOTER
+         Update the year and any additional footer information
+         ======================================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> Hyunwook (Dennis) Lee. All rights reserved.</p>
+            <p class="text-muted">Last updated: January 2025</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>

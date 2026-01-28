@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Hyunwook (Dennis) Lee - Email, LinkedIn, and professional contact information.">
+    <meta name="keywords" content="Hyunwook Lee, contact, email, LinkedIn, Indiana University">
+    <meta name="author" content="Hyunwook (Dennis) Lee">
+
+    <title>Contact | Hyunwook (Dennis) Lee</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ========================================================================
+         NAVIGATION BAR
+         ======================================================================== -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">Hyunwook Lee</a>
+
+            <button class="nav-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========================================================================
+         MAIN CONTENT
+         ======================================================================== -->
+    <main class="main-content">
+        <div class="container">
+            <h1>Contact</h1>
+
+            <p class="mb-3">
+                I welcome opportunities for academic collaboration, research discussions,
+                and professional inquiries. Please feel free to reach out using any of the
+                methods below.
+            </p>
+
+            <!-- ================================================================
+                 CONTACT INFORMATION
+                 Update the email and links with your actual information
+                 ================================================================ -->
+            <section class="contact-info">
+                <h2>Get in Touch</h2>
+
+                <div class="contact-item">
+                    <strong>Email:</strong>
+                    <a href="mailto:hl121@iu.edu">hl121@iu.edu</a>
+                </div>
+
+                <div class="contact-item">
+                    <strong>LinkedIn:</strong>
+                    <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+                        Connect on LinkedIn
+                    </a>
+                    <!-- UPDATE: Replace with your actual LinkedIn URL
+                         Example: https://linkedin.com/in/hyunwooklee -->
+                </div>
+
+                <!-- ADD MORE CONTACT/SOCIAL LINKS HERE
+                <div class="contact-item">
+                    <strong>Twitter:</strong>
+                    <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                        @yourusername
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <strong>ORCID:</strong>
+                    <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener noreferrer">
+                        0000-0000-0000-0000
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Google Scholar:</strong>
+                    <a href="https://scholar.google.com/citations?user=XXXXXXXXXX" target="_blank" rel="noopener noreferrer">
+                        View Profile
+                    </a>
+                </div>
+                -->
+            </section>
+
+            <!-- ================================================================
+                 INSTITUTIONAL ADDRESS (Optional)
+                 ================================================================ -->
+            <section>
+                <h2>Institutional Address</h2>
+                <address>
+                    <p>
+                        <strong>Indiana University Bloomington</strong><br>
+                        O'Neill School of Public and Environmental Affairs<br>
+                        [Building Name/Room Number]<br>
+                        Bloomington, IN 47405
+                    </p>
+                </address>
+            </section>
+
+            <!-- ================================================================
+                 CONTACT FORM
+                 Note: This form requires a backend service to function.
+                 Options for implementation:
+                 1. Formspree (https://formspree.io) - Easy, free tier available
+                 2. Netlify Forms - If hosting on Netlify
+                 3. Google Forms embed
+                 4. Custom backend
+
+                 To enable with Formspree:
+                 1. Sign up at formspree.io
+                 2. Get your form endpoint
+                 3. Replace action="#" with action="https://formspree.io/f/YOUR_FORM_ID"
+                 ================================================================ -->
+            <section>
+                <h2>Send a Message</h2>
+
+                <form class="contact-form" action="#" method="POST">
+                    <!--
+                    TO ENABLE THIS FORM:
+                    1. Sign up for Formspree at https://formspree.io
+                    2. Create a new form and get your endpoint URL
+                    3. Replace action="#" above with your Formspree URL
+                       Example: action="https://formspree.io/f/xyzabcde"
+                    -->
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Subject of your message">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Your message..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+
+                    <p class="text-muted mt-2">
+                        <small>
+                            <em>Note: Form functionality requires backend setup.
+                            For immediate contact, please use email.</em>
+                        </small>
+                    </p>
+                </form>
+            </section>
+
+            <!-- ================================================================
+                 OFFICE HOURS (Optional - for faculty/TAs)
+                 ================================================================ -->
+            <!--
+            <section>
+                <h2>Office Hours</h2>
+                <p>
+                    <strong>Fall 2025:</strong><br>
+                    Mondays: 2:00 PM - 4:00 PM<br>
+                    Wednesdays: 10:00 AM - 12:00 PM<br>
+                    Or by appointment
+                </p>
+            </section>
+            -->
+
+        </div>
+    </main>
+
+    <!-- ========================================================================
+         FOOTER
+         ======================================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> Hyunwook (Dennis) Lee. All rights reserved.</p>
+            <p class="text-muted">Last updated: January 2025</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
